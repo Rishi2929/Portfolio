@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/Project1.png";
 import projImg2 from "../assets/img/Project2.png";
 import projImg3 from "../assets/img/Project3.png";
+import projImg4 from "../assets/img/Project4.png";
+import projImg5 from "../assets/img/Project5.png";
+import projImg6 from "../assets/img/Project6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,36 +15,46 @@ export const Projects = () => {
   const projects = [
     {
       title: "Pocket Notes",
-      description: "Pocket Notes: Stylish local storage for your brilliant ideas.",
+      description: "Stylish local storage for your brilliant ideas.",
       imgUrl: projImg1,
-      // githubLink: "https://github.com/yourusername/project1",
-      // deployedLink: "https://yourdeployedlink.com",
+      githubLink: "https://github.com/Rishi2929/PocketNotes",
+      deployedLink: "https://sprightly-crumble-f88308.netlify.app/",
     },
     {
       title: "JobFinder",
-      description: "JobFinder: Streamlined job posting for recruiters with seamless login and smart filtering.",
+      description: "Streamlined job posting for recruiters with seamless login and smart filtering.",
       imgUrl: projImg2,
+      githubLink: "https://github.com/Rishi2929/Micro-Project",
+      deployedLink: "https://micro-project-sigma.vercel.app/",
     },
     {
       title: "SuperApp",
       description:
-        "SuperApp: Your all-in-one hub for movies, weather, news, and more. Personalized experience with login, register, and genre-based movie recommendations.",
+        "Your all-in-one hub for movies, weather, news, and more. Personalized experience with login, register, and genre-based movie recommendations.",
       imgUrl: projImg3,
+      githubLink: "https://github.com/Rishi2929/super_app",
+      deployedLink: "https://super-app2929.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Homyz",
+      description: "Discover homes effortlessly. View properties, contact us.",
+      imgUrl: projImg4,
+      githubLink: "https://github.com/Rishi2929/Real-estate",
+      deployedLink: "https://real-estate-seven-ochre.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Todo App",
+      description: "Simplify tasks, seamlessly manage CRUD operations.",
+      imgUrl: projImg5,
+      githubLink: "https://github.com/Rishi2929/Todo-App",
+      deployedLink: "https://todo-app-lbjw.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Credit Card",
+      description: "Instantly generate virtual credit card details.",
+      imgUrl: projImg6,
+      githubLink: "https://github.com/Rishi2929/Credit_card",
+      deployedLink: "https://credit-card-plum.vercel.app/",
     },
   ];
 
@@ -82,11 +95,12 @@ export const Projects = () => {
                           }
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <Tab.Pane eventKey="second">
+                        <p>Stay tuned for more exciting projects! I'm continuously working on new ideas and innovations to showcase here. In the meantime, feel free to explore my existing projects.</p>
+
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>Lorem ipsum dolor  amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                        <p>Stay tuned for more exciting projects! I'm continuously working on new ideas and innovations to showcase here. In the meantime, feel free to explore my existing projects.</p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
