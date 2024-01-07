@@ -47,6 +47,11 @@ export const Banner = () => {
     }
   }
 
+  const handleConnectClick = () => {
+    const linkedinProfileURL = 'https://www.linkedin.com/in/singhrishi2929/';
+    window.open(linkedinProfileURL, '_blank');
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +63,7 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Rishi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "FullStack Developer", "Backend Developer", "Frontend Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Explore my digital space where lines of code converge with creativity, and ideas seamlessly transform into functional solutions. With a strong foundation in both front and back-end technologies, I bring innovation and efficiency to every project I undertake. Let's dive into the world of possibilities together!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={handleConnectClick}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
